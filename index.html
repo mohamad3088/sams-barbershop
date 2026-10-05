@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="nl-BE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sam Barbershop — Barbier in Leuven &amp; Aalst</title>
+  <meta name="description" content="Sam Barbershop: fades, tapers en baardverzorging op topniveau. 5,0★ op Google. Savoyestraat 3, Leuven en Dirk Martensstraat, Aalst. Di–zo 10:00–20:00.">
+  <meta name="theme-color" content="#0a0907">
+  <meta property="og:title" content="Sam Barbershop — Leuven &amp; Aalst">
+  <meta property="og:description" content="Fades, tapers en baard. 5,0★ op Google. Boek je plek via WhatsApp.">
+  <meta property="og:image" content="img/interieur-hex.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0907'/%3E%3Ctext x='50%25' y='58%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-style='italic' font-size='40' fill='%23d4af6a'%3ES%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarberShop",
+    "name": "Sam Barbershop",
+    "image": "img/interieur-hex.jpg",
+    "telephone": "+32465996369",
+    "address": {"@type": "PostalAddress","streetAddress": "Savoyestraat 3","postalCode": "3000","addressLocality": "Leuven","addressCountry": "BE"},
+    "geo": {"@type": "GeoCoordinates","latitude": 50.8788394,"longitude": 4.7033281},
+    "openingHoursSpecification": [{"@type": "OpeningHoursSpecification","dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens": "10:00","closes": "20:00"}],
+    "aggregateRating": {"@type": "AggregateRating","ratingValue": "5.0","reviewCount": "54"},
+    "sameAs": ["https://www.instagram.com/sam.barbershopp/"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="brand" aria-label="Sam Barbershop — naar boven">
+        <span class="brand__script">Sam</span>
+        <span class="brand__stars" aria-hidden="true">★★★</span>
+        <span class="brand__sub">The Barber</span>
+      </a>
+      <nav class="nav__links" aria-label="Hoofdmenu">
+        <a href="#diensten">Diensten</a>
+        <a href="#werk">Werk</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#locaties">Locaties</a>
+      </nav>
+      <a href="#boeken" class="btn btn--gold btn--sm nav__cta">Boek nu</a>
+      <button class="nav__burger" id="burger" aria-label="Menu openen" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <nav>
+      <a href="#diensten">Diensten</a>
+      <a href="#werk">Werk</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#locaties">Locaties</a>
+      <a href="#boeken" class="btn btn--gold">Boek je plek</a>
+    </nav>
+  </div>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hex"></div>
+        <div class="hero__glow"></div>
+      </div>
+
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow reveal">Barbershop &nbsp;·&nbsp; Leuven &amp; Aalst</p>
+          <h1 class="hero__title reveal">
+            <span>Scherp.</span>
+            <span>Strak.</span>
+            <span class="script gold-text">Sam.</span>
+          </h1>
+          <p class="hero__lead reveal">Fades die perfect overlopen, lijnen die kloppen tot op de millimeter. Stap binnen aan de Savoyestraat en stap buiten als de beste versie van jezelf.</p>
+
+          <div class="hero__actions reveal">
+            <a href="#boeken" class="btn btn--gold">Boek je afspraak
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="tel:+32465996369" class="btn btn--ghost">Bel de zaak</a>
+          </div>
+
+          <a class="rating reveal" href="https://maps.google.com/?cid=15691255635667244696" target="_blank" rel="noopener">
+            <span class="rating__score">5,0</span>
+            <span class="rating__meta">
+              <span class="stars" aria-label="5 sterren">★★★★★</span>
+              <span>54 reviews op Google</span>
+            </span>
+          </a>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <figure class="card card--a"><img src="img/aan-het-werk.jpg" alt=""></figure>
+          <figure class="card card--b"><img src="img/fade-closeup.jpg" alt=""></figure>
+          <figure class="card card--c"><img src="img/skin-fade.jpg" alt=""></figure>
+          <div class="badge-open" id="heroStatus">
+            <span class="dot"></span><span class="badge-open__text">Di – Zo · 10:00 – 20:00</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#marquee" class="scroll-hint" aria-label="Scroll naar beneden"><span></span></a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" id="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Taper fade</span><i>✦</i><span>Skin fade</span><i>✦</i><span>Mid fade</span><i>✦</i><span>Baard &amp; contouren</span><i>✦</i><span>Textured crop</span><i>✦</i><span>Hot towel</span><i>✦</i><span>Styling</span><i>✦</i>
+        <span>Taper fade</span><i>✦</i><span>Skin fade</span><i>✦</i><span>Mid fade</span><i>✦</i><span>Baard &amp; contouren</span><i>✦</i><span>Textured crop</span><i>✦</i><span>Hot towel</span><i>✦</i><span>Styling</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ============ OVER ============ -->
+    <section class="section about">
+      <div class="container about__grid">
+        <div class="about__media reveal">
+          <img src="img/interieur-hex.jpg" alt="Interieur van Sam Barbershop met het iconische hexagon-lichtplafond" loading="lazy">
+          <img src="img/interieur.jpg" alt="Werkplek bij Sam Barbershop" loading="lazy" class="about__media-sm">
+        </div>
+        <div class="about__copy">
+          <p class="eyebrow reveal">Het vakmanschap</p>
+          <h2 class="h2 reveal">Geen lopende band.<br><em class="gold-text">Maatwerk.</em></h2>
+          <p class="reveal">Bij Sam Barbershop draait alles om detail. Elke knipbeurt start met een babbel: wat wil je, wat past bij je haar, hoe draag je het dagelijks. Daarna nemen we de tijd om het goed te doen — van de eerste lijn tot de laatste föhn.</p>
+          <p class="reveal">Onder het herkenbare hexagon-lichtplafond werken we hygiënisch, met verse handdoeken en propere tools voor elke klant. Strak resultaat, eerlijke prijs, toffe sfeer.</p>
+
+          <dl class="stats reveal">
+            <div><dt>5,0<span>★</span></dt><dd>Google-score</dd></div>
+            <div><dt>54</dt><dd>Reviews</dd></div>
+            <div><dt>2</dt><dd>Locaties</dd></div>
+            <div><dt>6/7</dt><dd>Dagen open</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DIENSTEN ============ -->
+    <section class="section services" id="diensten">
+      <div class="hex hex--faint" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal">Diensten &amp; prijzen</p>
+          <h2 class="h2 reveal">Kies je <em class="gold-text">cut</em></h2>
+        </header>
+
+        <!-- PRIJZEN: placeholders — af te stemmen met Sam -->
+        <div class="menu">
+          <div class="menu__col reveal">
+            <h3 class="menu__cat">Haar</h3>
+            <ul>
+              <li><div class="menu__row"><span>Knippen</span><i></i><b>€20</b></div><p>Klassieke knipbeurt met schaar en tondeuse, inclusief wassen en styling.</p></li>
+              <li><div class="menu__row"><span>Fade / Taper</span><i></i><b>€25</b></div><p>Low, mid, high of skin fade — naadloos overgelopen.</p></li>
+              <li><div class="menu__row"><span>Custom kapsel</span><i></i><b>€30</b></div><p>Textured crop, curls of een volledig nieuwe look. Inclusief advies.</p></li>
+              <li><div class="menu__row"><span>Kids <small>(-12 jaar)</small></span><i></i><b>€15</b></div><p>Fris en vlot geknipt voor de jongste klanten.</p></li>
+            </ul>
+          </div>
+          <div class="menu__col reveal">
+            <h3 class="menu__cat">Baard &amp; combo</h3>
+            <ul>
+              <li><div class="menu__row"><span>Baard trimmen</span><i></i><b>€12</b></div><p>Vorm, lengte en strakke contouren met mes.</p></li>
+              <li><div class="menu__row"><span>Baard deluxe</span><i></i><b>€18</b></div><p>Hot towel, scheermes, olie en verzorging.</p></li>
+              <li class="menu__featured"><div class="menu__row"><span>Haar + Baard</span><i></i><b>€35</b></div><p>De volledige behandeling. Onze populairste keuze.</p><span class="tag">Populair</span></li>
+              <li><div class="menu__row"><span>Wenkbrauwen / lijnen</span><i></i><b>€5</b></div><p>Afwerking met mes of tondeuse.</p></li>
+            </ul>
+          </div>
+        </div>
+        <p class="menu__note reveal">Prijzen indicatief — vraag gerust naar de mogelijkheden.</p>
+      </div>
+    </section>
+
+    <!-- ============ WERK ============ -->
+    <section class="section work" id="werk">
+      <div class="container">
+        <header class="section__head section__head--row">
+          <div>
+            <p class="eyebrow reveal">Uit de stoel</p>
+            <h2 class="h2 reveal">Het <em class="gold-text">werk</em> spreekt</h2>
+          </div>
+          <a href="https://www.instagram.com/sam.barbershopp/" target="_blank" rel="noopener" class="link-arrow reveal">
+            Volg @sam.barbershopp
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+          </a>
+        </header>
+
+        <div class="gallery">
+          <button class="gallery__item g-tall reveal" data-src="img/fade-closeup.jpg" data-cap="Low taper fade met textuur"><img src="img/fade-closeup.jpg" alt="Low taper fade met textuur bovenop" loading="lazy"><span>Low taper</span></button>
+          <button class="gallery__item reveal" data-src="img/curly-taper.jpg" data-cap="Curly taper"><img src="img/curly-taper.jpg" alt="Krullen met taper fade" loading="lazy"><span>Curly taper</span></button>
+          <button class="gallery__item reveal" data-src="img/skin-fade.jpg" data-cap="Skin fade"><img src="img/skin-fade.jpg" alt="Skin fade met strakke lijn" loading="lazy"><span>Skin fade</span></button>
+          <button class="gallery__item g-tall reveal" data-src="img/shop-leuven.jpg" data-cap="Savoyestraat 3, Leuven"><img src="img/shop-leuven.jpg" alt="Barbier aan het werk in de zaak in Leuven" loading="lazy"><span>In de zaak</span></button>
+          <button class="gallery__item reveal" data-src="img/textured-crop.jpg" data-cap="Textured crop"><img src="img/textured-crop.jpg" alt="Textured crop met fade" loading="lazy"><span>Textured crop</span></button>
+          <button class="gallery__item reveal" data-src="img/mid-fade.jpg" data-cap="Mid fade"><img src="img/mid-fade.jpg" alt="Mid fade met volume bovenop" loading="lazy"><span>Mid fade</span></button>
+          <button class="gallery__item g-wide reveal" data-src="img/styling.jpg" data-cap="Styling &amp; afwerking"><img src="img/styling.jpg" alt="Styling met föhn na de knipbeurt" loading="lazy"><span>Styling</span></button>
+          <button class="gallery__item g-wide reveal" data-src="img/aan-het-werk.jpg" data-cap="Precisiewerk"><img src="img/aan-het-werk.jpg" alt="Barbier werkt aan de contouren" loading="lazy"><span>Precisie</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="section reviews" id="reviews">
+      <div class="container reviews__grid">
+        <div class="reviews__score reveal">
+          <p class="eyebrow">Wat klanten zeggen</p>
+          <div class="big-score">5,0</div>
+          <div class="stars stars--lg" aria-label="5 sterren">★★★★★</div>
+          <p class="muted">Gemiddelde uit <strong>54 Google-reviews</strong></p>
+          <a href="https://maps.google.com/?cid=15691255635667244696" target="_blank" rel="noopener" class="link-arrow">Alle reviews bekijken
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+
+        <div class="quotes">
+          <blockquote class="quote reveal">
+            <div class="stars">★★★★★</div>
+            <p>“Onverslaanbaar in je werk! Zowel de goede service als de kwaliteit is een 10 out of 10.”</p>
+            <footer><span class="avatar">A</span><span><strong>Ali I.</strong><small>Google review</small></span></footer>
+          </blockquote>
+          <blockquote class="quote reveal">
+            <div class="stars">★★★★★</div>
+            <p>“Goeie service, toffe babbel en een prachtig resultaat voor een zeer voordelige prijs.”</p>
+            <footer><span class="avatar">B</span><span><strong>Bent V.</strong><small>Google review · Custom kapsel</small></span></footer>
+          </blockquote>
+          <blockquote class="quote reveal">
+            <div class="stars">★★★★★</div>
+            <p>“Heel goed kapper, schoon en weet absoluut wat hij doet. Zeker aan te bevelen!”</p>
+            <footer><span class="avatar">F</span><span><strong>Floris B.</strong><small>Google review</small></span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOEKEN ============ -->
+    <section class="section booking" id="boeken">
+      <div class="hex hex--faint" aria-hidden="true"></div>
+      <div class="container booking__grid">
+        <div class="booking__intro">
+          <p class="eyebrow reveal">Afspraak maken</p>
+          <h2 class="h2 reveal">Reserveer je <em class="gold-text">stoel</em></h2>
+          <p class="reveal">Kies je zaak, dienst en moment. Wij sturen je aanvraag meteen door via WhatsApp — Sam bevestigt zo snel mogelijk.</p>
+          <ul class="checks reveal">
+            <li>Geen account nodig</li>
+            <li>Bevestiging via WhatsApp</li>
+            <li>Liever bellen? <a href="tel:+32465996369">0465 99 63 69</a></li>
+          </ul>
+        </div>
+
+        <form class="book reveal" id="bookForm" novalidate>
+          <fieldset>
+            <legend>1. Locatie</legend>
+            <div class="seg" role="radiogroup">
+              <label><input type="radio" name="loc" value="leuven" checked><span>Leuven<small>Savoyestraat 3</small></span></label>
+              <label><input type="radio" name="loc" value="aalst"><span>Aalst<small>Dirk Martensstraat</small></span></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>2. Dienst</legend>
+            <select name="service" id="service" required>
+              <option value="Knippen">Knippen — €20</option>
+              <option value="Fade / Taper" selected>Fade / Taper — €25</option>
+              <option value="Custom kapsel">Custom kapsel — €30</option>
+              <option value="Haar + Baard">Haar + Baard — €35</option>
+              <option value="Baard trimmen">Baard trimmen — €12</option>
+              <option value="Baard deluxe">Baard deluxe — €18</option>
+              <option value="Kids">Kids (-12 jaar) — €15</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>3. Dag</legend>
+            <div class="days" id="days"></div>
+          </fieldset>
+
+          <fieldset>
+            <legend>4. Tijdstip</legend>
+            <div class="slots" id="slots"></div>
+          </fieldset>
+
+          <fieldset class="row2">
+            <legend class="sr-only">5. Jouw gegevens</legend>
+            <label class="field"><span>Naam</span><input type="text" name="name" id="name" autocomplete="given-name" placeholder="Je voornaam" required></label>
+            <label class="field"><span>Opmerking <small>(optioneel)</small></span><input type="text" name="note" id="note" placeholder="bv. zelfde als vorige keer"></label>
+          </fieldset>
+
+          <div class="book__summary" id="summary" aria-live="polite">Kies een dag en tijdstip.</div>
+          <button type="submit" class="btn btn--gold btn--block">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="wa"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.3.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+            Verstuur via WhatsApp
+          </button>
+          <p class="book__err" id="bookErr" role="alert"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ LOCATIES ============ -->
+    <section class="section locations" id="locaties">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal">Kom langs</p>
+          <h2 class="h2 reveal">Twee zaken, <em class="gold-text">één standaard</em></h2>
+        </header>
+
+        <div class="loc-grid">
+          <article class="loc reveal">
+            <div class="loc__map">
+              <iframe title="Kaart Sam Barbershop Leuven" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=Sam+Barbershop,+Savoyestraat+3,+3000+Leuven&z=16&output=embed"></iframe>
+            </div>
+            <div class="loc__body">
+              <div class="loc__top">
+                <h3>Leuven</h3>
+                <span class="status" data-status></span>
+              </div>
+              <p class="loc__addr">Savoyestraat 3<br>3000 Leuven</p>
+              <ul class="hours" data-hours></ul>
+              <div class="loc__actions">
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Savoyestraat+3,+3000+Leuven" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">Route</a>
+                <a href="tel:+32465996369" class="btn btn--gold btn--sm">0465 99 63 69</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="loc reveal">
+            <div class="loc__map">
+              <iframe title="Kaart Sam Barbershop Aalst" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=Dirk+Martensstraat,+9300+Aalst&z=16&output=embed"></iframe>
+            </div>
+            <div class="loc__body">
+              <div class="loc__top">
+                <h3>Aalst</h3>
+                <span class="status" data-status></span>
+              </div>
+              <p class="loc__addr">Dirk Martensstraat<br>9300 Aalst</p>
+              <ul class="hours" data-hours></ul>
+              <div class="loc__actions">
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Dirk+Martensstraat,+9300+Aalst" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">Route</a>
+                <a href="tel:+32497342880" class="btn btn--gold btn--sm">0497 34 28 80</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta">
+      <div class="cta__bg" aria-hidden="true"><img src="img/shop-entree.jpg" alt=""></div>
+      <div class="container cta__inner">
+        <h2 class="h2 reveal">Klaar voor een <em class="gold-text">frisse cut?</em></h2>
+        <p class="reveal">Zeker van je plek? Boek vooraf en sla de wachtrij over.</p>
+        <div class="hero__actions reveal">
+          <a href="#boeken" class="btn btn--gold">Boek nu</a>
+          <a href="https://www.instagram.com/sam.barbershopp/" target="_blank" rel="noopener" class="btn btn--ghost">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#top" class="brand brand--lg">
+          <span class="brand__script">Sam</span>
+          <span class="brand__stars" aria-hidden="true">★★★</span>
+          <span class="brand__sub">The Barber</span>
+        </a>
+        <p class="muted">Barbershop in Leuven &amp; Aalst.<br>Precisie, hygiëne en een toffe babbel.</p>
+      </div>
+      <div>
+        <h4>Openingsuren</h4>
+        <p class="muted">Maandag — gesloten<br>Dinsdag – zondag — 10:00 – 20:00</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p class="muted">Leuven · <a href="tel:+32465996369">0465 99 63 69</a><br>Aalst · <a href="tel:+32497342880">0497 34 28 80</a></p>
+      </div>
+      <div>
+        <h4>Volg ons</h4>
+        <a class="social" href="https://www.instagram.com/sam.barbershopp/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          @sam.barbershopp
+        </a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> Sam Barbershop. Alle rechten voorbehouden.</span>
+      <a href="#top">Naar boven ↑</a>
+    </div>
+  </footer>
+
+  <!-- Mobiele boekbalk -->
+  <div class="mbar" id="mbar">
+    <a href="tel:+32465996369" class="mbar__call" aria-label="Bel Sam Barbershop">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+    </a>
+    <a href="#boeken" class="btn btn--gold btn--block">Boek je afspraak</a>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Foto vergroot">
+    <button class="lightbox__close" id="lbClose" aria-label="Sluiten">✕</button>
+    <button class="lightbox__nav lightbox__prev" id="lbPrev" aria-label="Vorige">‹</button>
+    <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+    <button class="lightbox__nav lightbox__next" id="lbNext" aria-label="Volgende">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
